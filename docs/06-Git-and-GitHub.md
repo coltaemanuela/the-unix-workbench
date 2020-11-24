@@ -190,7 +190,12 @@ cooler Git features.
 ```bash
 git add readme.txt
 ```
+Note: If you want to add all the files you changed in the current directory (readme.txt in this case),
+just run the command:
 
+```bash
+git add .
+```
 Now that Git is tracking `readme.txt` we need to create a milestone to indicate
 the changes that we made to `readme.txt`. In this case, the changes that we made
 were creating the file in the first place! This milestone is called a **commit**
